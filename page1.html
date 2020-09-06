@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Main page</title>
+	<link rel="stylesheet" type="text/css" href="photo.css">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+	<img src="banner.png" style="height: 300px;width: 100%;">
+		<div class="topnav" id="myTopnav">
+  <a href="contact.html">Contact</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="page1.html" class="active">Home</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+<br>
+
+ <div class="imageslider">
+  <img class="mySlides" src="https://s3.amazonaws.com/pixpa.com/com/articles/1514663488-shutterstock_468774323.jpg" style="width: 100%;height: 50%;">
+  <img class="mySlides" src="https://dqg5fqdy33g0r.cloudfront.net/photos/event-planner/null/spyne/1536769630868/BLOG_THUMB_Gv25522Yb.jpg" style="width: 100%;">
+  <img class="mySlides" src="https://www8.gsb.columbia.edu/articles/sites/articles/files/article_detailedimage/africa-animal-animals-417142.jpg" style="width: 100%;">
+  <img class="mySlides" src="https://zoltangabor.com/wp-content/uploads/2013/02/IMG_2040_LR_small.jpg" style="width: 100%;">
+  <img class="mySlides" src="https://www.thephotoargus.com/wp-content/uploads/2019/09/lifestyleportrait03.jpg" style="width: 100%;">
+  <img class="mySlides" src="https://www.londonfamilyphotography.co.uk/wp-content/uploads/2018/01/Candid-Baby-Photography-in-London.jpg" style="width: 100%;">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 3000);
+}
+</script>
+	
+
+	<div class="photography">
+		<h1 >PHOTOGRAPHY!</h1>
+		<img src="https://i.pinimg.com/originals/9d/6b/17/9d6b178b8217243cfb287dad1790a021.jpg">
+		<p>Photography is the art, application and practice of creating durable images by recording light, either electronically by means of an image sensor, or chemically by means of a light-sensitive material such as photographic film. It is employed in many fields of science, manufacturing (e.g., photolithography), and business, as well as its more direct uses for art, film and video production, recreational purposes, hobby, and mass communication.</p>
+	</div>
+	
+
+</body>
+<div class="footer">
+			<hr>
+<h3>Copyright &copy 2020. All rights reserved by Husna </h3><hr>
+		<p><i>T.Husna_MITS1920WC17</i></p>
+	</div>
+</html>
