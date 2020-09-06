@@ -219,7 +219,7 @@ form button{
     	margin-bottom: 20px;
 	}
 	.sec1,.sec2,.sec3{
-		width: 96%;
+		width: 100%;
 		font-size: 10px;
 		margin: 2%;
 		flex-direction: column;
