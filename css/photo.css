@@ -223,7 +223,8 @@ form button{
 	.sec1,.sec2,.sec3{
 		width: 100%;
 		font-size: 10px;
-		margin: 2%;
+		margin: 1%;
+		padding:1%;
 		flex-direction: column;
 	}
 	.card{
