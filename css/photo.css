@@ -74,6 +74,8 @@ body {
 			font-size: 18px;
 			background-image: url("https://inspirationfeed.com/wp-content/uploads/2015/04/blurred-background.jpg");
 		}
+.sec1,.sec2,.sec3 p{
+	text-align:center;
 .aboutme{
 	background-image:url(https://i.pinimg.com/originals/03/4a/72/034a724e37d14be269c7b044d914953b.jpg);
 	 background-size: 100%;
