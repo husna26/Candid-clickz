@@ -227,6 +227,9 @@ form button{
 		padding:1%;
 		flex-direction: column;
 	}
+	.sec1,.sec2,.sec3 p{
+		text-align:center;
+	}
 	.card{
 		display:flex;
 		flex-direction: column;
