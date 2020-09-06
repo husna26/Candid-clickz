@@ -16,7 +16,7 @@ body {
 }
 .photography h1{
 	color:#e83023;
-	padding-left: 3%;
+	padding-left: 1%;
 }
 .title{
 	color: #e823c4;
@@ -152,6 +152,9 @@ form button{
 	 background-size: 100%;
 
 }
+.photography h1{
+	text-align:center;
+	}
 .cdetails{
 	background-color: rgba(255,255,255,0.4);
 }
