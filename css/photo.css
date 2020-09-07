@@ -222,12 +222,14 @@ form button{
 	.card{
 		display: flex;
 		flex-direction: column;
+		
 	}
 	.sec1,.sec2,.sec3{
 		width: 96%;
 		font-size: 10px;
 		margin: 2%;
 		text-align: center;
+		flex-direction:column;
 	}
 }
 
