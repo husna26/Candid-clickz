@@ -235,17 +235,10 @@ form button{
 		box-shadow: 3px 3px 3px #ccc;
 	}
 	.sec1,.sec2,.sec3{
-		width: 100%;
-		border:1.5px solid #ccc;
-		box-shadow: 3px 3px 3px #ccc;
-		padding: 1%;
-		background-color: #ECF0F0 ;
-		color: #000;
-		font-size: 18px;
-		text-align: center;
-		background-image: url("https://inspirationfeed.com/wp-content/uploads/2015/04/blurred-background.jpg");
-		background-size: cover;
-		background-position: center;
+                   width: 96%;
+                   font-size: 10px;
+                   margin: 2%;
+                   flex-direction: column;
 	}
 	.img1 img{
 		width: 100%;
