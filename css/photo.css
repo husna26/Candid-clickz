@@ -226,6 +226,7 @@ form button{
 	.card{
 		display: flex;
 		flex-direction: column;
+		width: 100%;
 		
 	}
 	.sec1,.sec2,.sec3{
