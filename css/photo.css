@@ -233,7 +233,6 @@ form button{
 		font-size: 10px;
 		margin: 2%;
 		text-align: center;
-		flex-direction:column;
 	}
 	.img1 img{
 		width: 100%;
